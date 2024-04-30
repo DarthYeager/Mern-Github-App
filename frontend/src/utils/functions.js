@@ -41,7 +41,6 @@ export function formatDate(inputDateString) {
 				return day + "th";
 		}
 	}
-
 	const formattedDate = `${monthName} ${getOrdinalSuffix(day)}, ${year}`;
 	return formattedDate;
 }
